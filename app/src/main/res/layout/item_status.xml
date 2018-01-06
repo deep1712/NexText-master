@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="75dp"
+    android:padding="25dp"
+    >
+
+    <LinearLayout android:id="@+id/photourllayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="6dp">
+
+        <ImageView
+            android:id="@+id/photourl"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ecell"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/photourllayout"
+        android:layout_toRightOf="@+id/photourllayout"
+        android:textColor="#0A0A0A"
+        android:text="Username"
+        android:typeface="sans"
+        android:textSize="16dp"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/photourllayout"
+        android:typeface="sans"
+        android:text="STATUS!!zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+        android:textColor="#343434"
+        android:textSize="14dip" />
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="12:00pm"
+        android:layout_marginRight="5dip"
+        android:textSize="12dip"
+        android:textColor="#44AA88"
+        android:textStyle="bold"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NexText</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="send_button_label">Send</string>
+    <string name="list_of_users">Receiver name</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="notification_message">"New Message from %1$s"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings for Following Screen -->
+    <string name="follow_key_switch_asser">key_asser</string>
+    <string name="follow_key_switch_cezanne">key_cezanne</string>
+    <string name="follow_key_switch_jlin">key_jlin</string>
+    <string name="follow_key_switch_lyla">key_lyla</string>
+    <string name="follow_key_switch_nikita">key_nikita</string>
+
+    <string name="follow_title_switch_asser">Asser</string>
+    <string name="follow_title_switch_cezanne">Cezanne</string>
+    <string name="follow_title_switch_jlin">Jessica</string>
+    <string name="follow_title_switch_lyla">Lyla</string>
+    <string name="follow_title_switch_nikita">Nikita</string>
+
+    <string name="follow_summary_not_following">Not Following</string>
+    <string name="follow_summary_following">Following</string>
+</resources>
